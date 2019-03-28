@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Teguhfv - Local Homies page",
+    title: "Teguh f v - Local Homie page",
     author: "Hunter Chang",
     description: "Whatever you call it"
   },
