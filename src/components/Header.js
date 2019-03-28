@@ -1,10 +1,13 @@
 import React from 'react'
+import { Link } from "gatsby"
 import PropTypes from 'prop-types'
+import tfv from '../images/tfv-small.png'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            <span className="icon fa-diamond"></span>
+        <img src={tfv} alt="" />
+            {/* <span className="icon fa-diamond"></span> */}
         </div>
         <div className="content">
             <div className="inner">
@@ -19,7 +22,7 @@ const Header = (props) => (
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact2</a></li>
+                {/* <li><a href="javascript:;" onClick={() => {Link to="/page-2"}}>Contact2</a></li> */}
             </ul>
         </nav>
     </header>
