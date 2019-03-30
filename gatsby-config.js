@@ -9,7 +9,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'tfv - pages',
+        name: 'Wellcome to my page -tfv',
         short_name: 'tfv',
         start_url: '/',
         background_color: '#020403',

@@ -4,11 +4,8 @@ import PropTypes from 'prop-types'
 import tfv from '../images/tfv-small1.png'
 
 const Header = (props) => (
-    <header id="header" style={props.timeout ? {display: 'none'} : {}}>
-        {/* <div className="logo"> */}
-        <img className="logo" src={tfv} alt="" />
-            {/* <span className="icon fa-diamond"></span> */}
-        {/* </div> */}
+    <header id="header" style={props.timeout ? {display: 'none'} : {}}> 
+        <img className="logo" src={tfv} alt="" /> 
         <div className="content">
             <div className="inner">
                 <h1>TEGUH FV</h1>
@@ -22,7 +19,6 @@ const Header = (props) => (
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
-                {/* <li><a href="javascript:;" onClick={() => {Link to="/page-2"}}>Contact2</a></li> */}
             </ul>
         </nav>
     </header>
