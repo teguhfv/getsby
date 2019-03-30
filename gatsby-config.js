@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Teguh f v page",
-    author: "Hunter Chang",
+    title: "TeguhFV personal page",
+    author: "Teguh Febbyan Valentino",
     description: "Whatever you call it"
   },
   plugins: [
