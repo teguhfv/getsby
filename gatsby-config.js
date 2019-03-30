@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Teguh f v - Local Homie page",
+    title: "Teguh f v page",
     author: "Hunter Chang",
     description: "Whatever you call it"
   },
@@ -12,8 +12,8 @@ module.exports = {
         name: 'tfv - pages',
         short_name: 'tfv',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#020403',
+        theme_color: '#020403',
         display: 'minimal-ui',
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },

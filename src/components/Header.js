@@ -12,8 +12,8 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>TEGUH FV</h1>
-                <p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-                for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+                <p>Fullstack Developer, Informatics Engineering Degree. <br/>Based in Bali Indonesia
+</p>
             </div>
         </div>
         <nav>
