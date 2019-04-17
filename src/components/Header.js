@@ -5,6 +5,7 @@ import tfv from '../images/index.png'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}> 
+    
         <div className="content">
             <div className="inner">
         <img className="logo" src={tfv} alt="" />  
