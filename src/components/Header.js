@@ -5,12 +5,11 @@ import tfv from '../images/index.png'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}> 
-        <img className="logo" src={tfv} alt="" /> 
         <div className="content">
             <div className="inner">
-                <h1>TEGUH</h1>
-                <p>Fullstack Developer, Informatics Engineering Degree. <br/>Based in <a href="https://www.google.com/search?q=bali" target="_blank">Bali</a> Indonesia
-</p>
+        <img className="logo" src={tfv} alt="" />  
+                <h1>TEGUH</h1> 
+                <p>Fullstack Developer, Informatics Engineering Degree. <br/>Based in <a href="https://www.google.com/search?q=bali" target="_blank">Bali</a> Indonesia</p>
             </div>
         </div>
         <nav>
