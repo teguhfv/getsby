@@ -2,14 +2,14 @@ module.exports = {
   siteMetadata: {
     title: "Teguh Febbyan Valentino",
     author: "Teguh Febbyan Valentino",
-    description: "Whatever you call it"
+    description: "freelance"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Hi There... -tfv',
+        name: 'Teguh Febbyan Valentino Personal age',
         short_name: 'tfv - page',
         start_url: '/',
         background_color: '#020403',
