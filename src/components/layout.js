@@ -42,7 +42,7 @@ const Layout = ({ children, location }) => {
             title={data.site.siteMetadata.title}
             meta={[
               { name: 'description', content: 'Teguh Febbyan V personal page' },
-              { name: 'keywords', content: 'Denpasar, Bali, web, villa, restaurant, spa' },
+              { name: 'keywords', content: 'Denpasar, Bali, web, villa, restaurant, spa, freelance' },
             ]}
           >
             <html lang="en" />
