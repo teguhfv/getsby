@@ -9,7 +9,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Teguh Febbyan Valentino Personal age',
+        name: 'Teguh Febbyan Valentino Personal Page',
         short_name: 'tfv - page',
         start_url: '/',
         background_color: '#020403',
