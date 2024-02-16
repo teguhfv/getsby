@@ -10,7 +10,7 @@ const Header = (props) => (
             <div className="inner">
         <img className="logo" src={tfv} alt="" />  
                 <h1>TEGUH</h1> 
-                <p>i convert coffee to anything, Informatics Engineering Degree. <br/>Based in <a href="https://www.google.com/search?q=bali" target="_blank">Bali</a> Indonesia</p>
+                <p>i convert coffee to anything, <br/>Based in <a href="https://www.google.com/search?q=bali" target="_blank">Bali</a> Indonesia</p>
             </div>
         </div>
         <nav>
